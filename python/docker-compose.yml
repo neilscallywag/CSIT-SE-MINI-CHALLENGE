@@ -1,0 +1,9 @@
+version: "1.0"
+services:
+  server:    
+    image: neilscallywag/${PROJECT_NAME}_python_backend:${VERSION}                    
+    container_name: ${PROJECT_NAME}_python_backend
+    ports:
+      - 8080:8080
+
+  
